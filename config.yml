@@ -7,8 +7,8 @@ description: # a longer description for your Learning Lab course, displayed on t
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name: # tempplate-repo
-  repo: # FifiTeklemedhin/template-repo
+  name: template-repo
+  repo: FifiTeklemedhin/template-repo
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
@@ -26,7 +26,7 @@ steps:
 # Step 1: INTERNAL COMMENT DESCRIBING STEP 
 - title: # the title of the step, shown to the learner in the course progress page
   description: # a description of the step, shown to the learner in the course progress page
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issue_comment
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
