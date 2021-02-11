@@ -30,7 +30,7 @@ steps:
     left: '%payload.pull_request.title%'
     operator: ===
     right: Add name to README
-- type: respond
+  type: respond
   with: 01_nice-work.md
 
 
