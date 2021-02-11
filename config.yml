@@ -16,8 +16,7 @@ template:
 before:
 - type: respond
   with: 01_first-response.md
-type: respond
-with: 01_nice-work.md
+
 # Steps for the course
 # A list of steps that take the learner through the course
 # Create one step for each action that a learner will complete
@@ -32,7 +31,8 @@ steps:
     left: '%payload.pull_request.base.ref%'
     operator: ===
     right: main
-
+- type: respond
+  with: 01_nice-work.md
 
 # Step 2: How do you write your own question?
 - title: How do you write your own question?
